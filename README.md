@@ -67,7 +67,8 @@ Help Options:
             "enableRateLimit": false,
             "urls": {
                 "api": {
-                    "public": "http://127.0.0.1:8090/api/v3"
+                    "public": "http://127.0.0.1:8090/api/v3", # for spot trading
+                    "fapiPublic": "http://127.0.0.1:8091/fapi/v1" # for future trading
                 }
             }
         },
